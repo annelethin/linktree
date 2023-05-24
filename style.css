@@ -20,6 +20,8 @@ main{
 .cecilie{
     border-radius: 70%;
     margin: 0 auto ;
+    width: 100rem;
+    height: 10rem;
 }
 
 .btn{
