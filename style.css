@@ -1,7 +1,6 @@
 
 html{
-    
-    overflow: hidden;
+    overflow-x: hidden;
     display: block;
 }
 
@@ -9,13 +8,14 @@ html{
 body{
     font-family: sans-serif;
     font-size: 25px;
-    background-color: antiquewhite;
+    background-color: #FAF9F8;
     
 }
 
 
 .logo{
     display: block;
+    margin: 40px;
     margin-left: 30px;
     margin-right: 20px;
     width: 300px;
@@ -26,8 +26,8 @@ body{
     border-radius: 60%;
     display: block;
     margin: 30px;
-    margin-top: 40px ;
-    margin-bottom: 40px;
+    margin-top: 10px ;
+    margin-bottom: 20px;
     clip-path: circle();
 }
 
@@ -40,10 +40,20 @@ body{
 .style{
     background-color:#C8CCF0;
     border-radius:10px;
-    color: #000;
+    color: #382633;
     text-decoration: none; 
     text-align: center;
     margin: 15px;
     padding: 15px;
 
+}
+
+.style:hover{
+    background: #F25639;
+    color: #382633;
+}
+
+.text{
+    margin: 10px;
+    
 }
