@@ -1,46 +1,49 @@
+
 html{
-    height: 100%;
-    margin: 0;
+    
     overflow: hidden;
+    display: block;
 }
+
 
 body{
     font-family: sans-serif;
+    font-size: 25px;
     background-color: antiquewhite;
+    
 }
 
-main{
-    display: flex;
-    flex-direction: column;
-    max-width: 300px;
-    margin: 50px auto;
 
+.logo{
+    display: block;
+    margin-left: 30px;
+    margin-right: 20px;
+    width: 300px;
 }
 
-.cecilie{
-    border-radius: 70%;
-    margin: 0 auto ;
-    width: 100rem;
-    height: 10rem;
+.profil{
+    width: 300px;
+    border-radius: 60%;
+    display: block;
+    margin: 30px;
+    margin-top: 40px ;
+    margin-bottom: 40px;
+    clip-path: circle();
 }
 
 .btn{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.style{
     background-color:#C8CCF0;
-    padding: 16px 20px;
-    margin-bottom: 20px;
-    border-radius:6px;
+    border-radius:10px;
     color: #000;
-    text-decoration: none;
+    text-decoration: none; 
     text-align: center;
+    margin: 15px;
+    padding: 15px;
 
 }
-
-.btn:hover{
-    background: #F25639;
-    color: #382633;
-
-
-}
-
-
-
