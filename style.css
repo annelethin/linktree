@@ -55,5 +55,8 @@ body{
 
 .text{
     margin: 10px;
+    padding: 50px;
     
 }
+
+@media
