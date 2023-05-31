@@ -1,7 +1,7 @@
 
 html{
     overflow-x: hidden;
-    display: block;
+    display: flex;
 }
 
 
@@ -14,7 +14,8 @@ body{
 
 
 .logo{
-    display: block;
+    display: flex;
+    align-items: center;
     margin: 40px;
     margin-left: 30px;
     margin-right: 20px;
@@ -24,7 +25,7 @@ body{
 .profil{
     width: 300px;
     border-radius: 60%;
-    display: block;
+    display: flex;
     margin: 30px;
     margin-top: 10px ;
     margin-bottom: 20px;
@@ -54,15 +55,127 @@ body{
 }
 
 .text{
-    margin: 10px;
-    padding: 50px;
+    margin: 5px;
+    padding: 20px;
+    text-align: center;
     
 }
 
-@media screen and (min-width 500px) {
+@media screen and (min-width:412px) {
 
-.logo{
+    .logo{
+        display: flex;
+        align-items: center;
+        margin: 50px;    
+    }
     
+    .profil{
+        display: flex;
+        align-items: center;
+        margin: 50px;
+    }
+        
+    }
+    
+    @media screen and (min-width:500px) {
+      
+    .logo{
+        display: flex;
+        width: 350px;
+        margin-left: 100px;   
+        }
+    
+     .profil{
+        width: 375px;
+        margin: 50px;
+        }
+    }
+    
+    @media screen and (min-width:700px ) {
+    
+        .logo{
+            width: 400px;
+            margin-left: 10rem;   
+            }
+        
+         .profil{
+            width: 400px;
+            margin-left: 10rem;
+            }
+    } 
+    
+    
+        
+    @media screen and (min-width: 970px){
+    
+        .logo{
+            width: 450px;
+            margin-left: 20rem;   
+            }
+        
+         .profil{
+            width: 400px;
+            margin-left: 20rem;
+            }
+        .style{
+            margin-left: 100px;
+        }
+        .text{
+          
+            margin-left: 5rem;
+            text-align: center;
+    }  
+
+
+
 }
+
+@media screen and (min-width: 1366px){
+    .logo{
+        width: 500px;
+        margin-left: 30rem;   
+        }
     
+     .profil{
+        width: 450px;
+        margin-left: 30rem;
+        }
+    .style{
+        margin: 20px;
+        margin-left: 25rem;
+        padding: 20px;
+  
+    }
+    .text{
+        text-align: center;
+        margin: 10px;
+        margin-left: 36%;
+
+    }
+}
+
+@media screen and (min-width: 1920px)
+{
+    .logo{
+        width: 55rem;
+        margin-left: 30rem;   
+        }
+    
+     .profil{
+        width: 45rem;
+        margin-left: 35rem;
+        }
+    .style{
+        margin: 40px;
+        margin-left: 15rem;
+        padding: 20px;
+        font-size: 50px;
+    }
+    .text{
+        text-align: center;
+        margin: 25px;
+        margin-left: 15%;
+        font-size: 50px;
+
+    }
 }
