@@ -31,7 +31,8 @@ body{
     width: 300px;
 }
 
-/*Vi har benyttet circle() for at forme billedet efter behov- link */
+/*Vi har benyttet circle() for at forme billedet efter behov - link - 
+https://developer.mozilla.org/en-US/docs/Web/CSS/clip-path?fbclid=IwAR1yLUUdd_uHpd4MHZG34tIqZeXAdHTCG6oJYsyt0Sn_e--fX5PB-v1ZNkM */
 .profil{
     width: 300px;
     border-radius: 60%;
